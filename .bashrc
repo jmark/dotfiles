@@ -14,7 +14,7 @@ shopt -s histappend
 export HISTFILESIZE=99999
 export HISTSIZE=
 export HISTTIMEFORMAT="%F %T "
-export HISTFILE="$HOME/.var/bash/eternal_history"
+export HISTFILE="$HOME/.bash_history"
 export HISTCONTROL="ignoreboth:erasedups"
 
 SYSTEM_PATH="$PATH"
@@ -57,8 +57,6 @@ export MYVIFM="$HOME/.config/vifm/vifmrc"
 
 #export TERM=xterm-256color
 export DVTM_TERM=xterm
-
-mkdir -p "$HOME/.var/bash"
 
 # =========================================================================== #
 # Bash Prompt
