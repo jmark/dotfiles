@@ -35,7 +35,7 @@ set laststatus=2
 set statusline=
 set statusline+=%<\                       " cut at start
 set statusline+=%2*[%n%H%M%R%W]%*\        " flags and buf no
-set statusline+=%-20{getcwd()}\			  " path
+"set statusline+=%-20{getcwd()}\			  " path
 set statusline+=%-20f\                    " path
 set statusline+=%=%1*%y%*%*\              " file type
 set statusline+=%10((%l,%c)%)\            " line and column
@@ -66,6 +66,8 @@ let fortran_free_source=1
 let fortran_have_tabs=1
 let fortran_more_precise=1
 let fortran_do_enddo=1
+
+execute pathogen#infect()
 
 command! Now read !date '+\%Y-\%m-\%d-\%H-\%M-\%S'
 

@@ -165,7 +165,7 @@ alias python='python -q'
 
 alias vim='vim -p'
 
-alias deepblueradioshow='cat ~/dump/deepblueradioshow.txt | ~/projects/Werkzeugkasten/scripts/punchline.pl -qsS ~/dump/listenedto.txt -- tmux new-window mpv --no-video --save-position-on-quit @'
+alias deepblueradioshow='cat ~/dump/solaris/deepblueradioshow.txt | ~/projects/Werkzeugkasten/scripts/punchline.pl -qsS ~/dump/solaris/listenedto.txt -- tmux new-window mpv --no-video --save-position-on-quit @'
 
 alias purgedir='rm -v ./*'
 
